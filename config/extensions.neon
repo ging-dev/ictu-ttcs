@@ -1,0 +1,7 @@
+extensions:
+    cycle: GingTeam\NetteCycle\CycleOrmExtension
+
+cycle:
+    dsn: sqlite:%appDir%/database.db
+    entityDirectory: %appDir%/Entity
+    cacheDirectory: %appDir%/../temp/cache
