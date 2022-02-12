@@ -36,5 +36,9 @@
 		"allow-plugins": {
 			"symfony/thanks": true
 		}
-	}
+	},
+    "scripts": {
+        "cycle": "./vendor/bin/cycle",
+        "psalm": "./vendor/bin/psalm --show-info=true"
+    }
 }
